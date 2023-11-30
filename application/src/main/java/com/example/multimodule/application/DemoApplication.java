@@ -18,6 +18,7 @@ public class DemoApplication {
 
     @GetMapping("/")
     public String home() {
+        // and modify here
         return myService.message();
     }
 
